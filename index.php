@@ -14,12 +14,12 @@ if ($_POST['login']) {
     }
 }
 
-if ($_POST) {
+/*if ($_POST) {
     header("Locations:index.php");
-}
+}*/
 
 if ($_GET['go']) {
-    header("Locations:login.php");
+    header("Location:login.php");
 }
 
 ?>
