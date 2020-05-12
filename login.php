@@ -1,6 +1,6 @@
 <?php
 session_start();
-$connection = new PDO('mysql:host=localhost; dbname=train2', 'root', 'root');
+$connection = new PDO('mysql:host=localhost; dbname=train2; charset=utf8', 'root', 'root');
 
 if ($_POST['login']) {
     $login = $_POST['login'];
